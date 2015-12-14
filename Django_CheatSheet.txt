@@ -1,0 +1,14 @@
+Virtual Environment
+-------------------
+
+@- To instantiate virtualenv inside a dir...
+
+   >>> virtualven foo (here foo is the name of venv)
+
+@- To activate venv...
+
+   >>> . foo/bin/activate
+
+@- 
+
+
