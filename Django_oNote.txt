@@ -1,0 +1,73 @@
+History
+-------
+
+@- Django was born in...
+
+   Fall of 2003
+
+@- First release...
+
+   21 July, 2005
+
+@- Django developed at ...
+
+   Lawrence Journal-World newspaper.
+
+@- Who were considered as father of Django? 
+
+   Adrian Holovaty and Simon Willison.
+
+@- Django is used to maintain ... websites.
+
+   LJWorld.com, Lawrence.com and KUsports.com
+
+@- The name Django came from? 
+
+   Django is named after the jazz guitarist Django Reinhardt
+
+@- Major websites using Django...
+
+   www.amazon.com
+   www.craigslist.com
+   www.washingtonpost.com
+   www.disqus.com
+   www.nasa.gov
+   www.nationalgeographic.com
+   www.pinterest.com
+   www.mozilla.org
+   www.instagram.com
+   www.theguardian.com
+
+@- Django is released under...
+
+   3-clause BSD License.
+
+
+
+Installation
+------------
+
+@- To check whether Django is installed or not...
+
+  >>> python
+  >>> import django
+
+@- To check which version of Django is installed...
+
+   >>> python
+   >>> import django
+   >>> print(django.get_version())
+
+@- Install Django in Ubuntu... 
+
+   step 1- Remove any old instance of Django already installed on machine. To do so run this command "
+python -c "import sys; sys.path = sys.path[1:]; import django; print(django.__path__)". It will reveal the path where other Django instances are located.
+
+   step 2- Install virtualenv...
+
+           
+   step 2- Install official Django version giving this command,
+
+1
+	
+python -c "import sys; sys.path = sys.path[1:]; import django; print(django.__path__)""
